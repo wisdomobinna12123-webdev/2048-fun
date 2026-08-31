@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Ghost 2048</title>
+
+    <link rel="icon" href="2048.png" type="image/png">
+
+<link rel="stylesheet" href="2048.css">
+</head>
+<body>
+
+  <div class="app">
+    <header class="header">
+      <h1 class="title">Ghost 2048 👻</h1>
+      <div class="scores">
+        <div class="score-box">
+          <span class="score-label">Score</span>
+          <span class="score-value" id="score">0</span>
+        </div>
+        <div class="score-box">
+          <span class="score-label">Best</span>
+          <span class="score-value" id="best-score">0</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="controls-row">
+      <p class="hint">Arrows / WASD / Swipe to move</p>
+      <button class="btn" id="new-game-btn">New Game</button>
+    </div>
+
+    <div class="board-wrap">
+      <div id="game-board"></div>
+    </div>
+
+    <footer class="footer">All rights reserved GHOST101+</footer>
+  </div>
+
+  <!-- Win Modal -->
+  <div class="modal-overlay" id="win-modal">
+    <div class="modal">
+      <h2>You Win! 👻</h2>
+      <p>You reached 2048!</p>
+      <button class="btn" id="win-restart-btn">Play Again</button>
+      <button class="btn btn-secondary" id="win-continue-btn">Keep Going</button>
+    </div>
+  </div>
+
+  <!-- Game Over Modal -->
+  <div class="modal-overlay" id="gameover-modal">
+    <div class="modal">
+      <h2>Game Over</h2>
+      <p>No more moves left.</p>
+      <button class="btn" id="gameover-restart-btn">Try Again</button>
+    </div>
+  </div>
+
+  <script src="2048.js"></script>
+</body>
+</html>
