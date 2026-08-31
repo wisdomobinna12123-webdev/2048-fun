@@ -3,7 +3,7 @@
 A clean, responsive clone of the classic 2048 game built with Vanilla HTML, CSS, and JavaScript.  
 No frameworks, no libraries. Just pure JS + mobile swipe support.
 
-**[Play Live Demo](https://yourusername.github.io/2048-fun)**
+**[Play Live Demo](https://wisdomobinna12123-webdev.github.io/2048-fun/)**
 
 ---
 
